@@ -220,7 +220,7 @@ async function getTime(){
   var responceJson = await responce.json();
   var dateTime = responceJson.datetime;
   var hour = dateTime.slice(11,13);
-  console.log(hour);
+  //console.log(hour);
   if(hour>=06 && hour<=18){
 
       bg = "white background.png";
