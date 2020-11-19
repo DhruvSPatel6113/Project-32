@@ -232,6 +232,8 @@ async function getTime(){
       bg = "background black.jpg";
 
   }
+ 
+ console.log(bg);
 
   backgroundImg=loadImage(bg);
 }
