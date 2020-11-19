@@ -234,5 +234,4 @@ async function getTime(){
   }
 
   backgroundImg=loadImage(bg);
-
 }
